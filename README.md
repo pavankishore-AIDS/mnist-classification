@@ -10,10 +10,13 @@ Digit classification and to verify the response for scanned handwritten images.
 
 The MNIST dataset is a collection of handwritten digits. The task is to classify a given image of a handwritten digit into one of 10 classes representing integer values from 0 to 9, inclusively. The dataset has a collection of 60,000 handwrittend digits of size 28 X 28. Here we build a convolutional neural network model that is able to classify to it's appropriate numerical value.
 
-![](mnist.png)
+![mnist](https://github.com/pavankishore-AIDS/mnist-classification/assets/94154941/91f82cc2-b402-4385-9fed-59f31c5a72fc)
+
+
 ## Neural Network Model
 
-![](NNmodel.PNG)
+![NNmodel](https://github.com/pavankishore-AIDS/mnist-classification/assets/94154941/707da1ba-a4cd-416e-8b94-c1a480e41180)
+
 
 ## DESIGN STEPS
 - STEP-1: Import tensorflow and preprocessing libraries
@@ -29,8 +32,8 @@ The MNIST dataset is a collection of handwritten digits. The task is to classify
 
 ## PROGRAM
 ```
-program Developed by: Kaushika A
-Register Number : 212221230048
+program Developed by:Pavan Kishore M
+Register Number : 212221230076
 ```
 
 ```python
@@ -202,28 +205,30 @@ print(x_single_prediction)
 
 ### Classification Report
 
-![](3.PNG)
+![3](https://github.com/pavankishore-AIDS/mnist-classification/assets/94154941/82bedd33-a379-434e-b9ef-01297650fcde)
 
 ### Confusion Matrix
+![conmatrix](https://github.com/pavankishore-AIDS/mnist-classification/assets/94154941/59266d3d-2252-4b80-a5b0-cccca1b04fc7)
 
-![](conmatrix.PNG)
+
 
 ### New Sample Data Prediction
 ### Sample image - 1 : input & output
+![in11](https://github.com/pavankishore-AIDS/mnist-classification/assets/94154941/d1460d4c-2069-40b0-9004-e3a8d5a55118)
 
-![](numeg.PNG)
 
-![](in11.PNG)
+![in12](https://github.com/pavankishore-AIDS/mnist-classification/assets/94154941/3654be5a-8acb-471f-85c8-a7f567ee0787)
 
-![](in12.PNG)
+
+
 
 ### Sample image - 2 : input & output
 
-![](numeg2.PNG)
+![in21](https://github.com/pavankishore-AIDS/mnist-classification/assets/94154941/910e29ed-2483-44ea-811d-48ed9adcdcf4)
 
-![](in21.PNG)
+![in22](https://github.com/pavankishore-AIDS/mnist-classification/assets/94154941/acfb17da-9ef3-4668-98eb-1644eead7a45)
 
-![](in22.PNG)
+
 
 ## RESULT
 
